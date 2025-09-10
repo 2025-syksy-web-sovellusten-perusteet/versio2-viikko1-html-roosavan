@@ -1,1 +1,19 @@
-/* Tyhjä aloituspohja: lisää omat tyylisi. */
+h1 {
+    font-size:40px;
+}
+img {
+    width: 500px;
+    height: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+th, td {
+  border: 1px solid #1c0732;
+  padding: 8px;
+}
+ul {
+    font-size:20px;
+    font-family:Georgia;
+}

@@ -9,21 +9,32 @@
 </head>
 <body>
   <header>
-    <h1><!-- TODO: Lomake-sivun H1 --></h1>
+    <h1>Lomake</h1>
     <nav aria-label="Päävalikko">
-      <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
+      <ul>
+  <li><a href="index.html">Etusivu</a></li>
+  <li><a href="table.html">Taulukko</a></li>
+  <li><a href="form.html">Lomake</a></li>
+  <li><a href="image.html">Kuva</a></li>
+</ul>
     </nav>
   </header>
   <main>
-    <!-- TODO: Luo <form>:
-         - lisää label for + id parit
-         - järkevät type-arvot (email, number, tms.)
-         - method ja action attribuutit
-         - submit-painike
-    -->
+<form method="post" action="/submit">
+    <label for="email">Sähköposti</label>
+    <input id="email" name="email" type="email" required />
+<br>
+    <label for="name">Nimi</label>
+    <input id="name" name="name" type="text" required />
+<br>
+    <label for="number">Numero</label>
+    <input id="number" name="number" type="text" required />
+<br>
+    <button type="submit">Lähetä</button>
+</form>
   </main>
   <footer>
-    <!-- TODO: Footer -->
+    <p>&copy; 2025 Web-sovellusten perusteet</p>
   </footer>
 </body>
 </html>
